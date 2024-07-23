@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>CountDown Till 2025</title>
+    <style>
+        #countDown {
+            font-family: 'Courier New', monospace; /* Fixed-width font */
+            transition: all 0.2s ease-in-out; /* Smooth transition */
+        }
+    </style>
+</head>
+
+<body class="bg-gradient-to-r from-teal-500 via-sky-300 to-purple-500 text-white min-h-screen flex items-center justify-center px-4">
+    <div class="bg-gradient-to-r from-blue-500 via-purple-600 to-pink-500 p-8 rounded-lg shadow-lg text-center">
+        <h1 class="text-4xl font-extrabold mb-4">Countdown to 2025</h1>
+        <div id="countDown-container" class="flex flex-col items-center justify-center">
+            <div id="countDown" class="text-5xl font-extrabold bg-gray-800 p-4 rounded-lg shadow-md min-w-[200px]">
+            </div>
+            <div id="countDown-label" class="text-xl mt-4">Until 2025</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
